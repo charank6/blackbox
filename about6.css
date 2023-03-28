@@ -1,0 +1,117 @@
+
+.nav{
+    height:100px;
+    background-color:rgb(75, 75, 75);
+    right:0%;
+    left:0%;
+    nav-right: 2500px;
+    font-size: 20px;
+    
+}
+
+.nav div{
+  
+    display:inline-block;
+    position:absolute;
+    padding: 20px;
+    color:rgb(74, 201, 201);
+    font-size: 40px;
+    left: 0px;
+    top:10px;
+    border:none;
+    border-radius:50px;
+    width: 400px;
+    height: 70px;
+}
+
+.nav ol{
+    position: absolute;
+    right: 5px;
+
+}
+.nav  ol li{
+    display: inline-block;
+}
+.nav ol li a{
+    display: inline-block;
+    color:black;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    border:none;
+    border-radius:100px;
+    background-color:rgb(74, 201, 201);
+    border-top-right-radius:24px ;
+    cursor: pointer;
+    transition: all;
+    width: 100px;
+    height: 20px;
+    padding-right: 25px;
+    gap: 25px;
+}
+.nav ol li a:hover{
+    color: white;
+
+}.charan{
+    padding-left: 30px;
+    padding-top: 100px;
+    width: 50%;
+    color:rgb(74, 201, 201);
+    text-align:center;
+
+}
+body{
+    background-color:rgb(75, 75, 75);
+}
+.b{
+    width: 50%;
+    text-align: left;
+    color: bisque;
+    padding-left: 50px;
+}
+.c {
+    color: white;
+    text-align: center;
+    width: 55%;
+    padding-bottom: 0px;
+}
+.charan3{
+    text-align: center;
+    width: 55%;
+    color: bisque;
+    padding-top: 0px;
+    column-gap: 20px;
+}
+.charan2{
+    padding-bottom: 0%;
+}
+.charan3 a{
+    color: rgb(74, 201, 201);
+    font-size: 25px;
+}
+.charan3 a:hover{
+    color: white;
+}
+.charan1 img{
+    padding-left: 60%;
+    padding-bottom: 0%;
+    width: 30%;
+    padding-right: 0%;
+    padding-top: 0px;
+}
+.charan1{
+    width: 70%;
+    padding-top: 0%;
+    padding-left: 100px;
+    height: 0px;
+    
+}
+.charan4{
+    width: 40%;
+    padding-left: 60%;
+    padding-top: 0px;
+}
+.charan4 img{
+   
+    height: 300px;
+}

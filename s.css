@@ -1,0 +1,190 @@
+body{
+    background-color: rgb(75, 75, 75);
+}
+.charan{
+    color: rgb(74, 201, 201);
+}
+.q{
+    font-size: 50px;
+    color: bisque;
+}
+nav{
+    height:100px;
+    background-color:rgb(75, 75, 75);
+    right:0%;
+    left:0%;
+    nav-right: 2500px;
+    font-size: 20px;
+    padding-left: 30px;
+    
+}
+.nav div{
+  
+    display:inline-block;
+    position:absolute;
+    padding: 20px;
+    color:rgb(74, 201, 201);
+    font-size: 40px;
+    left: 0px;
+    top:10px;
+    border:none;
+    border-radius:50px;
+    width: 400px;
+    height: 400px;
+    padding-left: 30px;
+}
+
+.nav ol{
+    position: absolute;
+    right: 5px;
+
+}
+.nav  ol li{
+    display: inline-block;
+}
+.nav ol li a{
+    display: inline-block;
+    color:black;
+    text-align:center;
+    padding: 5px;
+    font-size: 20px;
+    border:none;
+    border-radius:50px;
+    background-color:rgb(74, 201, 201);
+    cursor: pointer;
+    transition: all;
+    width: 100px;
+    height: 60px;
+    gap: 25px;
+}
+.nav ol li a:hover{
+    color: white;
+
+}
+.service-grid {
+    background: rgb(75, 75, 75);
+  }
+   .service-title h4 {
+    position: relative;
+    display: inline-block;
+  }
+  .service-icon {
+    position: relative;
+  }
+  .service-title p {
+    padding: 0 190px;
+    margin-bottom: 10px;
+  }
+  .about-info-text h2 {
+    margin-bottom: 23px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: .9;
+  }
+  .about-info-text p {
+    padding: 0 100px;
+    font-size: 18px;
+    margin-bottom: 26px;
+      position: relative;
+  }
+  .about-content p {
+    margin-bottom: 0;
+  }
+  .about-info-text a {
+    margin-bottom: 20px;
+      position: relative;
+  }
+  .service-icon i {
+    font-size: 40px;
+    color: #e8bc00;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  .service-wrap {
+    border: 1px solid rgb(74, 201, 201);
+    padding: 50px 30px;
+      position: relative;
+  }
+  
+  .service-wrap p{
+      position: relative;
+  }
+  
+  .service-wrap:hover {
+    background-image: url(https://i.ibb.co/mykzQks/services1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+  }
+  
+  .service-wrap:hover:before {
+    background: rgb(74, 201, 201);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    content: "";
+    top: 0;
+    opacity: 1;
+  }
+  
+  .service-wrap:hover h4,.service-wrap:hover p{
+    color: #fff;
+  }
+  .service-wrap h4 {
+    font-weight: 600;
+    color: rgb(74, 201, 201);
+    margin-bottom: 17px;
+    font-size: 18px;
+    text-transform: capitalize;
+      position: relative;
+  }
+  .service-wrap a {
+    font-size: 14px;
+    font-weight: 600;
+      position: relative;
+  
+  }
+  .a{
+    color: bisque;
+  }
+  .b{
+    color: bisque;
+  }
+  .m{
+    color: bisque;
+  }
+  .d{
+    color: bisque;
+  }
+  .e{
+    color: bisque;
+  }
+  .f{
+    color: bisque;
+  }
+  .charan3{
+    text-align: center;
+    color: bisque;
+    background-color:rgb(75, 75, 75) ;
+    padding-top: 20px;
+}
+.charan3 a{
+    color: rgb(74, 201, 201);
+    font-size: 25px;
+}
+.charan3 a:hover{
+    color: white;
+}
+.c {
+    color: white;
+    text-align: center;    
+    background-color:rgb(75, 75, 75);
+    padding-bottom: 0px;
+}
+.charan2 {
+    padding-bottom: 0px;
+    background-color: rgb(75, 75, 75);
+}
+

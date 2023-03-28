@@ -1,0 +1,259 @@
+
+.nav{
+    height:100px;
+    background-color:rgb(75, 75, 75);
+    right:0%;
+    left:0%;
+    nav-right: 2500px;
+    font-size: 20px;
+    
+}
+.nav div{
+  
+    display:inline-block;
+    position:absolute;
+    padding: 20px;
+    color:rgb(74, 201, 201);
+    font-size: 40px;
+    left: 0px;
+    top:10px;
+    border:none;
+    border-radius:50px;
+    width: 400px;
+    height: 70px;
+}
+
+.nav ol{
+    position: absolute;
+    right: 5px;
+
+}
+.nav  ol li{
+    display: inline-block;
+}
+.nav ol li a{
+    display: inline-block;
+    color:black;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    border:none;
+    border-radius:100px;
+    background-color:rgb(74, 201, 201);
+    border-top-right-radius:24px ;
+    cursor: pointer;
+    transition: all;
+    width: 100px;
+    height: 20px;
+    padding-right: 25px;
+    gap: 25px;
+}
+.nav ol li a:hover{
+    color: white;
+
+}
+.search{
+    width: 330px;
+    padding-left: 1000px;
+    margin-top: 0px;
+
+
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid  rgb(244, 228, 207);
+    margin-top: 13px;
+    color:white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-left: 30px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background:  rgb(244, 228, 207);
+    border: 2px solid  rgb(244, 228, 207);
+    margin-top: 13px;
+    color:black;
+    font-size: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(74, 201, 201);
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.charan{
+  text-align: center;
+  color:bisque;
+  padding-top: 0px;
+  padding-right: 740px;
+
+    
+}
+.cherry{
+    background-color:rgb(75, 75, 75) ;
+    margin-bottom: 0px;
+   margin-right: 100px;
+}
+.charan1{
+    text-align:left;
+    color: white;
+    padding:30px ;
+    padding-right: 700px;
+}
+.charan3{
+    background-color:rgb(75, 75, 75) ;
+    margin-top:0px;
+    padding-right: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+.r{
+    margin-top: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: burlywood;
+    margin-bottom: 20px;
+}
+.t{
+    background-color: blue;
+}
+body{
+    background-color:rgb(75, 75, 75) ;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: rgb(244, 228, 207);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #5c6b73;
+    color:white;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form{
+    width: 250px;
+    height: 450px;
+    background:rgb(40, 40, 40);
+    position: absolute;
+    top: 220px;
+    left: 1000px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:black;
+    font-size: 22px;
+    background-color:rgb(74, 201, 201);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(74, 201, 201);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+.form .link a{
+    text-decoration: none;
+    color:rgb(74, 201, 201);
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+.icons a{
+    text-decoration: none;
+    color:rgb(74, 201, 201);
+}
+.icons ion-icon{
+    color:rgb(74, 201, 201);
+    font-size: 23px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color:white;
+}
+.l{
+    color: aqua;
+}
+.maggie{
+    text-align: left;
+    padding-left: 25px;
+    color:rgb(255, 224, 184);
+}
+.maggie a{
+    color:rgb(74, 201, 201);
+    font-size: 20px;
+}
+.img{
+    padding:20px;
+    background-image: none;
+}
